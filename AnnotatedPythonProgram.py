@@ -7,8 +7,7 @@
 #The Following Information is important:
  Initial image is taken by camera ON the robot's linear actuator,
  perspective is changed to bird's eye view
- and then resized to 385 by 430 so that 12" in any direction on the picture is
- 62 pixels +/- 2 pixels
+ and then resized to 385 by 430 so that 12" in any direction on the picture scales to ~62 pixels +/- 2 pixels
 
 
 # Purpose and functions of this Python Program are as follows
