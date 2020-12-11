@@ -537,7 +537,7 @@ for i in list(range(0, len(my_finalcoords)-1)):
 my_finalangles = angles_n2n
 
 
-# altering angles so that minimal roation is used
+# altering angles so that minimal rotation is used
 for i in list(range(0, len(my_finalangles))):
     # if the turn angle is greater than 180, turn angle is too far right
     # change turn angle to negative (left turns) but greater than -180
