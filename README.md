@@ -2,8 +2,7 @@
 Rutgers University | Industrial and Systems Engineering | Fall 2017 Capstone Project
 
 "AnnotatedPythonProgram.py"
-Developed by my teammates and me
-overs the following:
+Developed by my teammates and me covers the following:
 - Image capture and item detetection
 - Translation of node detection to optimal travel path
 - Communication of movements (linear and rotational) to arduino board (and eventually mechanical components)
