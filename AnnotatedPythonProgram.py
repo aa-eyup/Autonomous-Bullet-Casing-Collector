@@ -354,7 +354,7 @@ dist_df = dist(coords, coords, metric = 'euclidean')
 
 # call the coordinates which will be clustered and save as Z
 Z = linkage(coords, 'ward')
-# DISTANCE BETWEEB CASINGS IN ORDER TO GET CLUSTERED (SUBJECT TO CHANGE)
+# DISTANCE BETWEEN CASINGS IN ORDER TO GET CLUSTERED (SUBJECT TO CHANGE)
 # cluster bullets with in 40 pixels of eachother (equivalent to about 4" (half the width of the collection roller)
 max_d = 25
 clusters = fcluster(Z, max_d, criterion = 'distance')
